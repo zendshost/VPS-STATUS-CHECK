@@ -1,3 +1,5 @@
+
+
 ```markdown
 # VPS-STATUS-CHECK 🚀
 
@@ -67,28 +69,4 @@ Developed with ❤️ by [zendshost](https://github.com/zendshost).
 
 ```
 
----
-
-### 🚀 Cara Menambahkannya ke GitHub Kamu
-
-Silakan jalankan perintah ini berturut-turut di terminal VPS kamu (pastikan kamu berada di dalam folder `VPS-STATUS-CHECK`):
-
-1. Buat file-nya:
-   ```bash
-   nano README.md
-
 ```
-
-2. Copy seluruh teks di dalam kotak `markdown` di atas, lalu paste di dalam Nano.
-3. Simpan dengan menekan `Ctrl + O`, lalu `Enter`. Keluar dengan `Ctrl + X`.
-4. Upload langsung ke GitHub dengan perintah:
-```bash
-git add README.md
-git commit -m "Add official README.md documentation"
-git push
-
-```
-
-
-
-*(Masukkan username `zendshost` dan Personal Access Token kamu jika diminta).*
