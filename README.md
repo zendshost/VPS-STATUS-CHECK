@@ -140,8 +140,3 @@ Jika project ini membantu, jangan lupa:
 🚀 Share ke teman kamu
 
 ---
-
-# 📜 License
-
-This project is licensed for personal and educational use.
-````
