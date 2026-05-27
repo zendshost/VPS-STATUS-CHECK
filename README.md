@@ -1,68 +1,147 @@
+````markdown
+# 🚀 VPS-STATUS-CHECK
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Supported-success?style=for-the-badge&logo=linux">
+  <img src="https://img.shields.io/badge/Security-Compiled-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Terminal-Tool-orange?style=for-the-badge">
+</p>
 
-```markdown
-# VPS-STATUS-CHECK 🚀
-
-A lightweight, secure, and compiled terminal tool for checking and monitoring VPS status.
+<p align="center">
+  Lightweight • Fast • Secure • VPS Monitoring Tool
+</p>
 
 ---
 
-## 🔒 Security Notice
-The source code of this tool has been compiled into a native Linux binary (`zends_terminal`) using `shc`. This ensures the script is secure from reverse engineering, direct tampering, or unauthorized code leaks while maintaining high performance.
+## 📌 About
+
+**VPS-STATUS-CHECK** adalah tool terminal Linux untuk memonitor dan mengecek status VPS secara cepat langsung dari terminal.
+
+Tool ini dibuat ringan, cepat, dan aman untuk digunakan di berbagai jenis VPS Linux.
 
 ---
 
-## 🛠️ Prerequisites
-Before running the tool, make sure `git` is installed on your VPS. If it's not installed yet, run:
+## ✨ Features
+
+- ⚡ Fast & Lightweight
+- 🔒 Compiled Binary Security
+- 🖥️ Terminal Based Interface
+- 📊 VPS Status Monitoring
+- 🌐 Linux VPS Support
+- 🚀 Easy Installation
+
+---
+
+## 🔐 Security
+
+Binary `zends_terminal` dibuat menggunakan `shc` untuk meningkatkan keamanan dan mencegah modifikasi langsung pada script.
+
+---
+
+# 🛠️ Requirements
+
+Pastikan VPS sudah terinstall:
 
 ```bash
-# For Ubuntu/Debian
+git
+```
+
+### Ubuntu / Debian
+
+```bash
 sudo apt update && sudo apt install git -y
+```
 
-# For CentOS/RHEL/AlmaLinux
+### CentOS / AlmaLinux / RHEL
+
+```bash
 sudo yum install git -y
-
 ```
 
 ---
 
-## 📥 How to Install and Run
+# 📥 Installation
 
-Simply copy and paste these 4 commands into your Linux terminal:
+Copy & paste command berikut ke terminal VPS kamu:
 
 ```bash
-# 1. Clone the repository to your VPS
+# Clone repository
 git clone https://github.com/zendshost/VPS-STATUS-CHECK.git
 
-# 2. Enter the project directory
+# Masuk folder project
 cd VPS-STATUS-CHECK
 
-# 3. Give execution permission to the binary file
+# Berikan izin execute
 chmod +x zends_terminal
 
-# 4. Run the application
+# Jalankan aplikasi
 ./zends_terminal
-
 ```
 
 ---
 
-## 💡 Pro Tip (Optional)
+# ⚡ Global Command (Optional)
 
-If you want to run this tool from **anywhere** in your system without navigating to this folder or typing `./`, move the binary to your global system path:
+Agar command bisa dijalankan dari mana saja:
 
 ```bash
 sudo cp zends_terminal /usr/bin/zends_terminal
-
 ```
 
-Once moved, you can run it instantly from any directory just by typing:
+Setelah itu cukup jalankan:
 
 ```bash
 zends_terminal
-
 ```
 
 ---
 
-Developed with ❤️ by [zendshost](https://github.com/zendshost).
+# 🖥️ Supported OS
+
+- Ubuntu
+- Debian
+- CentOS
+- AlmaLinux
+- Rocky Linux
+- VPS Linux lainnya
+
+---
+
+# 📸 Preview
+
+```bash
+███████╗███████╗███╗   ██╗██████╗ ███████╗
+╚══███╔╝██╔════╝████╗  ██║██╔══██╗██╔════╝
+  ███╔╝ █████╗  ██╔██╗ ██║██║  ██║███████╗
+ ███╔╝  ██╔══╝  ██║╚██╗██║██║  ██║╚════██║
+███████╗███████╗██║ ╚████║██████╔╝███████║
+╚══════╝╚══════╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
+```
+
+---
+
+# ❤️ Developer
+
+Developed with passion by:
+
+## 🌐 zendshost
+
+GitHub:
+https://github.com/zendshost
+
+---
+
+# ⭐ Support
+
+Jika project ini membantu, jangan lupa:
+
+⭐ Star repository ini  
+🍴 Fork project ini  
+🚀 Share ke teman kamu
+
+---
+
+# 📜 License
+
+This project is licensed for personal and educational use.
+````
