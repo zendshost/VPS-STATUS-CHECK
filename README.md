@@ -32,7 +32,7 @@ Simply copy and paste these 4 commands into your Linux terminal:
 
 ```bash
 # 1. Clone the repository to your VPS
-git clone [https://github.com/zendshost/VPS-STATUS-CHECK.git](https://github.com/zendshost/VPS-STATUS-CHECK.git)
+git clone https://github.com/zendshost/VPS-STATUS-CHECK.git
 
 # 2. Enter the project directory
 cd VPS-STATUS-CHECK
