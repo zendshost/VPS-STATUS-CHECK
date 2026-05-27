@@ -66,5 +66,3 @@ zends_terminal
 ---
 
 Developed with ❤️ by [zendshost](https://github.com/zendshost).
-
-```
